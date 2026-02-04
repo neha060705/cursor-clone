@@ -11,7 +11,7 @@ nav{
   top: 0;
   left: 0;
   width: 100%;
-  height: 60px;
+  height: 40px;
 
   
   /* padding: 0 80px; */
@@ -20,13 +20,16 @@ nav h1{
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  font-size: 18px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  margin-left: 120px ;
+  margin-top:14px ;
+  font-size: 14px;
+  font-family:"CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-left: 110px ;
+  font-weight: 600;
   /* margin-right: 200px; */
 }
 nav h1 img{
   margin-right: 4px;
+  margin-top: 4px;
 }
 nav h1:hover{
   cursor:pointer;
@@ -53,35 +56,56 @@ nav div a:hover{
 nav div a:active{
   color:gray
 }
-nav div button{
+/* nav div button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 15px;
 border-width: 1px;
   padding-left: 10px;
   padding-right: 10px;
- 
-  /* font-size: 1px; */
+margin-top: 10px;
+;
   
   
   
-}
-#sign-in{
-  background-color: rgb(32, 31, 31);
-    padding-left: 12px;
-  padding-right: 12px;
-  color:white;
-  font-size: 16px;
+} */
+ .nav-button{
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-right: 120px;
+  margin-top: 10px;
+
+ }
+ .nav-button button {
+  border-radius:  999px; 
+  padding: 6px 14px;
+  font-size: 14px;
+  font-weight: 500;
   cursor: pointer;
+  transition: all 0.25s ease;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 
 }
-#download{
-  font-weight: 520;
-  padding-left: 15px;
-  padding-right: 15px;
-   padding-top: 6px;
-  padding-bottom: 6px;
+ 
+#sign-in{
+  background-color: rgb(32, 31, 31);
+   
+  color:rgb(235, 228, 228);
+  
+
+}
+#signin:hover {
+  
   cursor: pointer;
-  margin-right: 100px;
-  font-size: 18px;
+}
+
+#download{
+  background-color: rgb(242, 236, 236);
+  color: black;
+  border: none;
+
   
 }
 #download:hover{
@@ -90,38 +114,44 @@ border-width: 1px;
 
 main div{
   margin-top: 150px;
-  margin-left: 120px;
+  margin-left: 110px;
 }
 main div h1{
-  font-size: 32px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 500;
+  font-size: 26px;
+  font-family: "CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
 color:rgb(235, 231, 231);
 
 }
 main div button{
-  margin-top: 20px;
-  padding:12px;
-  font-size:18px;
+  margin-top: 16px;
+  font-family: "CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding:10px;
+  font-size:16px;
   border-radius: 50px;
   border:none;
-  font-weight: 500;
+  font-weight: 480;
   cursor: pointer;
   padding-left: 20px;
   padding-right: 20px;
-  color: rgb(23, 23, 23);
+  color: black;
 
 }
 .preview{
   margin-top:60px;
-  margin-left: 120px;
+  margin-left: 110px;
+  margin-right: 110px;
+  
 
 
 }
+.preview img{
+  border-radius: 5px;
+}
 .preview-text{
-  margin-top:70px;
+  margin-top:55px;
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
   color:rgb(232, 228, 228)
 }
 
@@ -178,24 +208,33 @@ align-items: center;
 }
 .container{
   display: flex;
-  gap:40px;
+  gap:30px;
   align-items: center;
   border-radius: 8px;
 justify-content: space-between;
-padding: 20px;
+/* padding: 20px; */
+padding: 14px;
 background-color: rgb(27, 25, 19);
+}
+.text1, .text2, .text3{
+  line-height: 1.4;
+
 }
 
 .container h2{
   font-family: "CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-weight: 600;
-  font-size:x-large;
+  font-weight: 400;
+  font-size:22px;
+  color: rgb(239, 233, 233);
+
 }
+
 .container p{
   font-family: "CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size:24px;
+  font-size:20px;
   color: rgb(158, 153, 153);
   font-weight: 500;
+  /* line-height: 1.4; */
 
 }
 .container a{  
@@ -208,6 +247,7 @@ background-color: rgb(27, 25, 19);
   cursor:pointer;
 }
 .container img{
-  width:1000px;
+  width:850px;
+  height: 650px;
 }
 
