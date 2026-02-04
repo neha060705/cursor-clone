@@ -213,12 +213,17 @@ align-items: center;
   border-radius: 8px;
 justify-content: space-between;
 /* padding: 20px; */
-padding: 14px;
+
 background-color: rgb(27, 25, 19);
 }
-.text1, .text2, .text3{
+.text1,  .text3{
   line-height: 1.4;
+padding: 16px;
 
+}
+.text2{
+  line-height: 1.4;
+  padding-right: 70px;
 }
 
 .container h2{
@@ -250,4 +255,129 @@ background-color: rgb(27, 25, 19);
   width:850px;
   height: 650px;
 }
+.text2{
+  margin-left: 10px;
+}
+.card-section{
+  margin-top:80px;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+.card-section h2{
+  font-family: "CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size:36px;
+  color: rgb(244, 239, 239);
+  text-align: center;
 
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 8px;
+  justify-content: center;
+  margin-top: 40px;
+  background-color: black;
+
+}
+.card {
+  background:#151515;; 
+  border: 1px solid #222;
+  border-radius: 5px;
+  padding: 28px;
+  text-align: left;
+  display: flex;
+  min-width: 270px;
+  min-height: 250px;
+  flex-direction: column;
+  justify-content: space-between; 
+
+}
+.card p{
+  font-family: "CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color:rgb(219, 216, 216)
+}
+.author{
+  display: flex;
+  gap:10px;
+
+  align-items: center;
+}
+.author img{
+  width:40px;
+  height: 40px;
+  border-radius: 8px;
+}
+.author-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 0.5;
+}
+.author-info p{
+  font-family: "CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: white;
+}
+.author-info span{
+  font-family:"CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif ;
+  color: rgb(210, 204, 204);
+}
+.card-section2{   
+  margin-top:180px;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.cards2{ 
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 8px;
+  justify-content: center;
+  margin-top: 30px;
+  background-color:  rgb(0, 0, 0);
+}
+.card2{
+  background-color: rgb(27, 25, 19);
+  border: 1px solid #222;
+  border-radius: 5px;
+  padding: 28px;
+  text-align: left;
+  display: flex;
+  min-width: 270px;
+  min-height: 250px;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+ 
+.card2 img{
+  
+  width:380px;
+  height: 400px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.head{
+  font-size: 16px;
+  font-family: "CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 0.2px;
+  font-weight: 300;
+  color:rgb(249, 246, 246)
+}
+.para{
+
+  color: rgb(199, 195, 195);
+  font-size: 16px;
+  font-family: "CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+.card2 a{
+  color: orangered;
+}
