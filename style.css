@@ -14,7 +14,7 @@ nav{
   height: 40px;
 
   
-  /* padding: 0 80px; */
+
 }
 nav h1{
   display: flex;
@@ -25,7 +25,7 @@ nav h1{
   font-family:"CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
   margin-left: 110px ;
   font-weight: 600;
-  /* margin-right: 200px; */
+
 }
 nav h1 img{
   margin-right: 4px;
@@ -56,20 +56,7 @@ nav div a:hover{
 nav div a:active{
   color:gray
 }
-/* nav div button{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 15px;
-border-width: 1px;
-  padding-left: 10px;
-  padding-right: 10px;
-margin-top: 10px;
-;
-  
-  
-  
-} */
+
  .nav-button{
   display: flex;
   gap: 6px;
@@ -331,6 +318,7 @@ padding: 16px;
 .card-section2{   
   margin-top:180px;
   max-width: 1300px;
+  height: 900px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 20px;
@@ -380,4 +368,277 @@ padding: 16px;
 }
 .card2 a{
   color: orangered;
+}
+
+.card-section2 h3{
+   font-family: "CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+   font-size: 24px;
+   font-weight: 500;
+
+}
+
+.changelog{
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+  margin-top: 20px;
+  
+}
+
+.changelog h3{
+  font-family: "CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.logs{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;       
+}
+.log{
+  background: #1b1916;
+  border: 1px solid #242424;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;   
+  gap: 12px;
+  padding: 20px;                 
+  border-radius: 10px;           
+  min-height: 130px;         
+
+  /* background:rgb(27, 25, 19);
+  border: 1px solid #222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 5px; */
+}
+
+
+
+
+.p1{
+  font-family: "CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  /* color: rgb(195, 191, 191);
+  font-size: 18px;
+  font-weight: 500; */
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  font-size: 14px;        /* Smaller */
+  font-weight: 500;
+  color: #b3b3b3;
+
+}
+
+
+.log p button{
+  /* border-radius: 15px;
+  background-color: #242424;
+  color: rgb(195, 191, 191);
+  padding-right: 4px; */
+ 
+  background: #242424;
+  color: #d1d1d1;
+  padding: 2px 8px;
+  font-size: 12px;
+  border-radius: 20px;
+ 
+}
+.log p{
+  font-family: "CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.p2{
+color: orangered;
+font-size: 18px;
+font-weight: 400;
+font-family: font-family: "CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.feature2-section{
+  background:rgb(27, 25, 19);
+  margin-left: 100px;
+  margin-right: 100px;;
+  margin-top: 120px;
+  margin-bottom: 100px;
+
+}
+.features2{
+  display: flex;
+  gap:10px;
+  align-items: center;
+  border-radius: 8px;
+justify-content: space-between;
+/* padding: 20px; */
+
+background-color: rgb(27, 25, 19);
+}
+
+.p3{
+  font-family: "CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 600px;
+  padding-left:12px ;
+ 
+}
+.p4{
+  font-family: "CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: orangered;
+  font-weight: 500;
+  padding-left:12px ;
+}
+.feature2-section img{
+  margin: 20px;
+  border-radius: 5px;
+}
+
+
+.highlights{
+  margin-top: 250px;
+  width: 100%;
+  
+}
+.highlights-container{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  
+ 
+  background-color: #151515;
+}
+.highlights-left{
+  font-family:"CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif ;
+  font-size: 16px;
+  font-weight: 400;
+
+  
+}
+.section-label{
+  margin-top: 80px;
+  padding-left :50px;
+}
+
+.highlights-right{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap:10px;
+  margin-top: 80px;
+  cursor: pointer;
+  
+
+}
+.highlight-card{
+  background-color:  rgb(27, 25, 19);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  width: 600px;
+  padding-left: 12px;
+  border-radius: 5px;
+}
+.highlight-card h3{
+  font-family:"CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif ;
+  font-size: 16px;
+  font-weight: 500;
+}
+.highlight-card p {
+  
+   font-family:"CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif ;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: rgb(208, 204, 204);
+
+}
+.highlight-card span{
+  
+  font-family:"CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif ;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(208, 204, 204);
+}
+
+.highlights-right a{
+   font-family:"CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif ;
+  font-size: 16px;
+  font-weight: 400;
+  color: orangered;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.download{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+.download p{
+  font-family:"CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif ;
+  font-size: 70px;
+  font-weight: 500;
+}
+.download button{
+   font-family:"CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif ;
+  border-radius: 20px;
+  font-size: 18px;
+  padding: 6px 14px;
+  margin-top: 10px;
+
+}
+
+.footer{
+  background-color:rgb(27, 25, 19); 
+  padding: 60px 0 40px;
+  margin-top: 150px;
+
+}
+.footer-container{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 40px;
+  
+  
+  gap: 60px;
+  
+}
+
+.footer-column h4{ 
+font-family:"CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif ;
+font-size: 14px;
+margin-bottom: 16px;
+color: #aaa;
+
+}
+
+.footer-column a{
+  display: block;
+  font-family:"CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif ;
+font-size: 14px;
+  text-decoration: none;
+  color: rgb(245, 241, 241);
+  font-weight: 400;
+  cursor: pointer;
+
+
+}
+.footer p{
+ font-family:"CursorGothic", "CursorGothic Fallback", system-ui, Helvetica Neue, Helvetica, Arial, sans-serif ;
+ font-size: 14px;
+ padding-left: 140px;
+ margin-top: 100px;
+ font-weight: 400;
+ color:  rgb(193, 187, 187);
+
+
+
 }
