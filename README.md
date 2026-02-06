@@ -1,6 +1,7 @@
 # Cursor Landing Page Clone
 This is basic UI interface created using HTML, CSS
 
+deploy link -https://neha060705.github.io/cursor-clone/
 
 
 # Sections Implemented
